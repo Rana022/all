@@ -1,0 +1,104 @@
+/*medium-screen layout*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+     
+        .jumbotron #details {
+	       margin-top: 87px;
+         }
+
+        .post a h4 {
+	       font-size: 16px;
+          }
+        .profile-picture {
+	
+			margin-top: 16px;
+			margin-left: -5px;
+}
+        .popular img {
+			width: 86px;
+			height: 61px;
+
+}
+        .popular .post_details {
+			width: 107px;
+			margin-left: 22px;
+}
+        .post_details h3 {
+	
+	        font-size: 17px;
+}
+        .popular .post_details p {
+			font-size: 12px;
+}
+        .popular ul {
+	        padding-left: 14px;
+}
+        .social-section .popular a i {
+			font-size: 26px;
+			margin-left: 16px;
+	
+}   
+        nav#pagination {
+	        margin-left: 58px;
+}
+        .popular {
+	        padding-bottom: 19px;
+}
+
+
+
+}
+
+
+/*small-mobile-screen layout*/
+@media only screen and (max-width: 767px) {
+   
+     
+
+
+
+}
+
+/*big-mobile-screen layout*/
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+       .post a img {
+    width: 50%;
+    margin-left: 125px;
+}
+
+    .post-image a img {
+    height: 228px;
+}
+   nav#pagination {
+    margin-left: 170px;
+    margin-top: 17px;
+}
+   .popular h4 {
+    text-align: center;
+}
+   .popular img {
+    width: 110px;
+    height: 69px;
+    margin-left: 204px;
+}
+   .popular .post_details {
+    margin-left: 206px;
+}
+   .popular ul {
+    margin-left: 197px;
+}
+    .social-section {
+    text-align: center;
+}
+     .footer-section p {
+    margin-top: 16px;
+}
+     .jumbotron #details {
+    margin-top: 87px;
+}
+
+
+
+
+
+}
